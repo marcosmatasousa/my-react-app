@@ -1,0 +1,51 @@
+h1 {
+    margin: 0px;
+    font-size: 155%;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 100%;
+    font-weight: 100;
+}
+
+.box {
+    width: 40vh;
+    height: 100vh;
+    background-color: rgb(43,49,55);
+    text-align: center;
+}
+
+.avatarImg {
+    border-radius: 50%;
+    max-width: 230px;
+    margin-top: 30px;
+}
+
+.header {
+    font-family: 'Inter', sans-serif;
+    color: rgb(205, 217, 229);
+    margin-top: 15px;
+}
+
+.header.name {
+    margin: 0;    
+}
+
+.buttonsBox {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    width: 250px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    background-color: transparent;
+}
